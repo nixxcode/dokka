@@ -1,9 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Playground" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="org.jetbrains.dokka.MainKt" />
-    <module name="fatjar_main" />
+    <module name="org.jetbrains.dokka.cli.main" />
     <option name="PROGRAM_PARAMETERS" value="-module playground test -format html -output out/html" />
-    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    <method />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
   </configuration>
 </component>
